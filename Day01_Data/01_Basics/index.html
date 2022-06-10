@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title>
+    <style>
+        #box {
+          display: flex;
+          justify-content: space-around;
+        }
+        #box > div {
+          height: 5em;
+          width: 5em;
+          background-color: green;
+        }
+      </style>
+        <!-- external file in html head - preferred way -->
+        <script src="01_style.js" defer></script>
+</head>
+<body>
+    <h1>Basics</h1>
+    <div id="box"></div>
+    <!-- inline
+     - at the bottom of the page - anti-pattern
+     - JS that only applies to this document
+     - 
+    -->
+    <!-- <script type="text/javascript">
+      var box = document.getElementById("box");
+      for (let i = 0; i < 5; i++) {
+        let div = document.createElement("div");
+        div.onclick = function () {
+          alert("This is box # " + i);
+        };
+        box.appendChild(div);
+      }
+    </script> -->
+            <!-- external file at bottom of page - anti-pattern  -->
+            <!-- <script src="02_reference.js"></script> -->
+</body>
+</html>
