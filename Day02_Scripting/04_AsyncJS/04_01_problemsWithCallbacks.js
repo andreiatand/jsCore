@@ -15,7 +15,7 @@ function sayHello(wait) {
 // sayHello(wait)
 
 // callback hell, pyramid of doom
-unction doStep1(init) {
+function doStep1(init) {
     return init + 1;
   }
   
@@ -36,3 +36,31 @@ unction doStep1(init) {
   }
   
   doOperation();
+
+  function doStep1WithCallback(init, callback) {
+    const result = init + 1;
+    callback(result);
+  }
+  
+  function doStep2WithCallback(init, callback) {
+    const result = init + 2;
+    callback(result);
+  }
+  
+  function doStep3WithCallback(init, callback) {
+    const result = init + 3;
+    callback(result);
+  }
+  
+  function doOperationWithCallback() {
+    doStep1WithCallback(0, result1 => {
+      doStep2WithCallback(result1, result2 => {
+        doStep3WithCallback(result2, result3 => {
+          console.log(`result: ${result3}`);
+        });
+      });
+    });
+  
+  }
+  
+  doOperationWithCallback();
