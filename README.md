@@ -2,8 +2,15 @@
 
 The following resources can be used to get a better grasp of JavaScript Fundamentals
 
+## Tooling
+- [vscode] - VS Code IDE
+- [liveServer] -Live Server extension for VS Code
+- [browser] - Any modern browser
+- [f12] - Browser console for your browser of choice
+
 ## Day 01 - Data
-- [JS] - JavaScript technologies overview
+- [JS] - Javascript wiki
+- [JSTech] - JavaScript technologies overview
 - [es6] - ECMAScript 6
 - [web idl] - Web API Standard
 - [es 2023] - Latest ECMAScript 2023
@@ -20,8 +27,12 @@ The following resources can be used to get a better grasp of JavaScript Fundamen
 - [promise] - Promises
 - [async] - Asynchronous JavaScript
 
-
-[JS]:<https://developer.mozilla.org/en-US/docs/Web/JavaScript/JavaScript_technologies_overview>
+[vscode]:<https://code.visualstudio.com/>
+[liveServer]:<https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer>
+[f12]:<https://firefox-source-docs.mozilla.org/devtools-user/browser_console/index.html>
+[browser]:<https://caniuse.com/ciu/comparison>
+[JS]:<https://en.wikipedia.org/wiki/JavaScript>
+[JSTech]:<https://developer.mozilla.org/en-US/docs/Web/JavaScript/JavaScript_technologies_overview>
 [es6]:<https://262.ecma-international.org/6.0/>
 [web idl]:<https://webidl.spec.whatwg.org/>
 [es 2023]:<https://tc39.es/ecma262/multipage/#sec-intro>
