@@ -62,7 +62,7 @@ The following resources can be used to get a better grasp of JavaScript Fundamen
    4. [Optional] Using the `prompt` built in function, capture the color from the user input
 2. Build a function that does basic `Math` operations on the parameters of the function
    1. Use an ==arrow function== that accepts a ==callback== as the operation that will be performed and a variable number of parameters (==variadic functions==)
-  2. Define a couple of ==variadic callbacks== and call the arrow function declared above
+   2. Define a couple of ==variadic callbacks== and call the arrow function declared above
 
 
 [examples]:<https://reactjs.org/community/examples.html>
