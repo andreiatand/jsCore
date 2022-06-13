@@ -1,5 +1,4 @@
 # Core JavaScript Fundamentals Challenges
-ß
 ## Framework application (15 mins)
 1. Find an example application on the www
 2. If you can't find one, use the following [examples]
