@@ -56,13 +56,13 @@ The following resources can be used to get a better grasp of JavaScript Fundamen
 
 ## Functions (30 mins)
 1. Build a function using ==function declaration== that:
-1.1. appends a <button> on the DOM
-1.2. Add a css class on the <button> created above
-1.3. Add an event listener on the `click` event and change the color of the button when the `click` event is raised
-1.4. [Optional] Using the `prompt` built in function, capture the color from the user input
+    1. appends a <button> on the DOM
+    2. Add a css class on the <button> created above
+   3. Add an event listener on the `click` event and change the color of the button when the `click` event is raised
+   4. [Optional] Using the `prompt` built in function, capture the color from the user input
 2. Build a function that does basic `Math` operations on the parameters of the function
-2.1   Use an ==arrow function== that accepts a ==callback== as the operation that will be performed and a variable number of parameters (==variadic functions==)
-2.2 Define a couple of ==variadic callbacks== and call the arrow function declared above
+   1. Use an ==arrow function== that accepts a ==callback== as the operation that will be performed and a variable number of parameters (==variadic functions==)
+  2. Define a couple of ==variadic callbacks== and call the arrow function declared above
 
 
 [examples]:<https://reactjs.org/community/examples.html>
